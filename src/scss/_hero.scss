@@ -1,0 +1,138 @@
+.no-webp .hero {
+  background-image: url("../img/kamin-hero.png"), url("../img/fill-use-bg.png");
+  @include retina {
+    background-image: url("../img/kamin-hero@2x.png"),
+      url("../img/fill-use-bg.png");
+  }
+}
+
+.webp .hero {
+  background-image: url("../img/kamin-hero.webp");
+  @include retina {
+    background-image: url("../img/kamin-hero@2x.webp");
+  }
+}
+
+.hero {
+  padding-top: 5px;
+  padding-bottom: 42px;
+  background-image: url("../img/kamin-hero.webp");
+  background-repeat: no-repeat;
+  background-position: bottom 0 left 10px;
+  background-size: 300px 229px;
+  @include retina {
+    background-image: url("../img/kamin-hero@2x.webp");
+  }
+
+  @media screen and (min-width: 375px) {
+    background-position: bottom 0 left 50px;
+    background-size: 320px 229px;
+  }
+
+  @media screen and (max-width: 767px) {
+    height: 450px;
+  }
+
+  @include tablet {
+    background-position: bottom 50px right 20px;
+    background-size: 450px 329px;
+  }
+
+  @include desktop {
+    padding-bottom: 242px;
+    background-position: top 5px left 617px;
+    background-size: 700px 429px;
+  }
+}
+
+.title {
+  font-weight: 250;
+  text-transform: uppercase;
+}
+
+.hero__title {
+  width: 290px;
+  font-size: 24px;
+  line-height: 1.25;
+  letter-spacing: 0.07em;
+  margin-bottom: 29px;
+  background-color: rgba(255, 255, 255, 0);
+  background-image: linear-gradient(
+    226.43deg,
+    #ffffff 49.37%,
+    rgba(255, 255, 255, 0) 99.78%
+  );
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+
+  @include tablet {
+    width: 590px;
+    font-size: 48px;
+  }
+
+  @include desktop {
+    width: 780px;
+    font-size: 64px;
+  }
+}
+
+.hero__bottom-text {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  color: $accent-color;
+  margin-bottom: 26px;
+
+  @include tablet {
+    margin-bottom: 86px;
+  }
+
+  @include desktop {
+    font-size: 32px;
+    margin-bottom: 86px;
+  }
+}
+.peculiarities-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  @include tablet {
+    justify-content: flex-start;
+  }
+
+  @include desktop {
+    gap: 80px;
+  }
+}
+
+.peculiarities-list__item {
+  text-align: center;
+}
+.peculiarities-list__item + .peculiarities-list__item {
+  width: 120px;
+}
+
+.peculiarities-list__icon {
+  display: inline-block;
+  margin-bottom: 14px;
+
+  @media screen and (max-width: 767px) {
+    width: 20px;
+    height: 20px;
+  }
+}
+.peculiarities-list__text {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 1.57;
+
+  @include tablet {
+    font-size: 12px;
+  }
+
+  @include desktop {
+    font-size: 14px;
+  }
+}
