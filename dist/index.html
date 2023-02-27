@@ -6,7 +6,7 @@
   <meta name="description" content="Free Web tutorials" />
   <meta name="keywords" content="HTML, SCSS" />
   <meta name="author" content="Kristi Krasovska" />
-  <link rel="stylesheet" href="./css/style.min.css?_v=20230226221152" />
+  <link rel="stylesheet" href="./css/style.min.css?_v=20230227234821" />
   <title>Elite Fire</title>
 </head>
 
@@ -78,25 +78,164 @@
 </section>
  <section id="benefits" class="benefits">
   <div class="container">
-    <h2 class="benefits__title title">Популярные модели</h2>
+    <h2 class="benefits__title title">Настоящий высокий огонь у вас дома</h2>
+    <p class="benefits__bottom-text">
+      Благодаря специальной технологии горения биоэтанола мы добились горения
+      потрясающей красоты
+    </p>
+    <picture>
+      <source
+        srcset="img/kamin-benefits.webp 1x, img/kamin-benefits@2x.webp 2x"
+        type="image/webp"
+      />
+      <source
+        srcset="img/kamin-benefits.png 1x, img/kamin-benefits@2x.png 2x"
+        type="image/png"
+      />
+      <img
+        class="benefits__img"
+        src="img/kamin-benefits.png"
+        alt="камин"
+        width="1289"
+        height="495"
+      />
+    </picture>
+    <ul class="benefits-list list-style">
+      <li class="benefits-list__item">
+        <span class="benefits-list__icon">
+          <img
+            src="img/icons/icons.svg#fire"
+            width="46"
+            height="46"
+            alt="огонь"
+          />
+        </span>
+        <p class="benefits-list__text">
+          Пламя яркое, высотой до 20 сантиметров
+        </p>
+      </li>
+      <li class="benefits-list__item">
+        <span class="benefits-list__icon">
+          <img
+            src="img/icons/icons.svg#h2o"
+            width="50"
+            height="50"
+            alt="вода"
+          />
+        </span>
+        <p class="benefits-list__text">Работает такой камин на биотопливе</p>
+      </li>
+      <li class="benefits-list__item">
+        <span class="benefits-list__icon">
+          <img
+            src="img/icons/icons.svg#close"
+            width="40"
+            height="40"
+            alt="крестик"
+          />
+        </span>
+        <p class="benefits-list__text">Он не дымит и не пахнет</p>
+      </li>
+    </ul>
   </div>
 </section>
 
       <section id="using" class="using">
   <div class="container">
-    <h2 class="using__title title"></h2>
+    <h2 class="using__title title">заправка</h2>
+    <p class="using__text">
+      Внутри не просто труба. Спроектированный нами бак, самого большого обьема
+      среди всех производителей
+    </p>
+    <p class="using__bottom-text">
+      В наши топливные блоки встроен мощный насос.
+    </p>
+    <div class="icons">
+      <img
+        src="img/icons/icons.svg#hose"
+        width="20"
+        height="20"
+        alt="подкова"
+      /><span class="icons__img"></span>
+      <img
+        src="img/icons/icons.svg#power-button"
+        width="20"
+        height="20"
+        alt="подкова"
+      />
+    </div>
+
+    <p class="using__icon-text">Достаточно вставить шланг Нажать кнопку</p>
   </div>
 </section>
  <section id="connection" class="connection">
   <div class="container">
-    <h2 class="connection__title title"></h2>
+    <h2 class="connection__title title">
+      Умный камин<span class="connection__title-dash"></span>очень умный
+    </h2>
+    <p class="connection__text">
+      Даже если у Вас нет своего решения по умному дому. Мы отлично ладим с
+      Яндекс.Алиса и Mi Home.
+    </p>
   </div>
 </section>
 
-       
+       <section id="experience" class="experience">
+  <div class="container">
+    <h2 class="experience__title title">Есть задача? Есть решение!</h2>
+    <ul class="photo-gallery list-style">
+      <li class="photo-gallery__item">
+        <picture><source srcset="img/exp.webp" type="image/webp"><img src="img/exp.jpg" class="photo-gallery__photo" width="370" height="267"></picture></img>
+      </li>
+		<li class="photo-gallery__item">
+			<picture><source srcset="img/exp.webp" type="image/webp"><img src="img/exp.jpg" class="photo-gallery__photo" width="370" height="267"></picture></img>
+		 </li>
+		 <li class="photo-gallery__item">
+			<picture><source srcset="img/exp.webp" type="image/webp"><img src="img/exp.jpg" class="photo-gallery__photo" width="370" height="267"></picture></img>
+		 </li>
+    </ul>
+    <h2 class="experience__bottom-title title">
+      Почемы мы можем многое?<br> Свои люди. Свои станки. Своя лаборатория
+    </h2>
+	 <ul class="photo-gallery list-style">
+      <li class="photo-gallery__item">
+        <picture><source srcset="img/exp.webp" type="image/webp"><img src="img/exp.jpg" class="photo-gallery__photo" width="370" height="267"></picture></img>
+      </li>
+		<li class="photo-gallery__item">
+			<picture><source srcset="img/exp.webp" type="image/webp"><img src="img/exp.jpg" class="photo-gallery__photo" width="370" height="267"></picture></img>
+		 </li>
+		 <li class="photo-gallery__item">
+			<picture><source srcset="img/exp.webp" type="image/webp"><img src="img/exp.jpg" class="photo-gallery__photo" width="370" height="267"></picture></img>
+		 </li>
+    </ul>
+  </div>
+</section>
+
        <section id="contacts" class="contacts">
   <div class="container">
-    <h2 class="visually-hidden title">Контакты</h2>
+    <h2 class="contacts__title title">связаться с нами</h2>
+    <nav class="footer-nav">
+      <ul class="contacts-list list-style">
+        <li class="contacts-list__item">
+          <p class="contacts-list__text">WatsApp</p>
+          <a href="tel:+79113064144" class="contacts-list__link"
+            >+7911 306 4144
+          </a>
+        </li>
+        <li class="contacts-list__item">
+          <p class="contacts-list__text">Телеграмм</p>
+          <a href="http:/t.me@elite_fire" class="contacts-list__link"
+            >@elite_fire</a
+          >
+        </li>
+        <li class="contacts-list__item">
+          <p class="contacts-list__text">Телеграмм</p>
+          <a href="mailto:info@elite-fire.ru" class="contacts-list__link"
+            >info@elite-fire.ru</a
+          >
+        </li>
+      </ul>
+    </nav>
   </div>
 </section>
 
@@ -108,6 +247,6 @@
   </div>
 </footer>
 
-    <script src="./js/app.js?_v=20230226221152"></script>
+    <script src="./js/app.js?_v=20230227234821"></script>
   </body>
 </html>

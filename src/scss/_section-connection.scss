@@ -1,0 +1,95 @@
+.no-webp .connection {
+  background-image: url("../img/kamin-bg-connect.jpg");
+  @include retina {
+    background-image: url("../img/kamin-bg-connect.jpg");
+  }
+}
+
+.webp .connection {
+  background-image: url("../img/kamin-bg-connect.webp");
+  @include retina {
+    background-image: url("../img/kamin-bg-connect@2x.webp");
+  }
+}
+
+.connection {
+  padding-top: 35px;
+  padding-bottom: 35px;
+
+  background-image: url("../img/kamin-bg-connect.webp");
+  background-repeat: no-repeat;
+  background-position: top 0 right 50%;
+  background-size: 320px 220px;
+  @include retina {
+    background-image: url("../img/kamin-bg-connect@2x.webp");
+  }
+
+  @include tablet {
+    padding-bottom: 400px;
+    background-position: top 50% right 50%;
+    background-size: 768px 420px;
+  }
+
+  @include desktop {
+    background-size: contain;
+    background-position: top 0 right 0;
+    padding-top: 0;
+    padding-bottom: 515px;
+  }
+}
+.connection__title {
+  font-size: 18px;
+  line-height: 1.38;
+  text-align: center;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+
+  background: linear-gradient(
+    247.29deg,
+    #ffffff 35.25%,
+    rgba(255, 255, 255, 0) 104.81%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-bottom: 119px;
+
+  @include tablet {
+    margin-bottom: 19px;
+    font-size: 34px;
+  }
+
+  @include desktop {
+    font-size: 40px;
+  }
+}
+
+.connection__title-dash::after {
+  content: "";
+  display: inline-block;
+  width: 40px;
+  height: 1px;
+  background-color: $secondary-text-color;
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-bottom: 15px;
+}
+.connection__text {
+  width: 290px;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.65;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  @include tablet {
+    font-size: 16px;
+  }
+
+  @include desktop {
+    width: 644px;
+    font-size: 20px;
+  }
+}

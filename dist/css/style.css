@@ -467,7 +467,7 @@ a {
 }
 
 .no-webp .no-webp .hero {
-  background-image: url("../img/kamin-hero.png"), url("../img/fill-use-bg.png"); }
+  background-image: url("../img/kamin-hero.png"); }
 
 .webp .hero {
   background-image: url("../img/kamin-hero.webp");
@@ -540,6 +540,267 @@ a {
   line-height: 1.57;
 }
 
+.no-webp .no-webp .benefits {
+  background-image: url("../img/benefits-bg.png"); }
+
+.webp .benefits {
+  background-image: url("../img/benefits-bg.webp");
+}
+
+.benefits {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  background-image: url("../img/benefits-bg.webp");
+  background-repeat: no-repeat;
+  background-position: bottom 30px right -50px;
+  background-size: 390px 312px;
+}
+
+.benefits .container {
+  text-align: center;
+}
+
+.benefits__title {
+  width: 290px;
+  line-height: 1.5;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0.15);
+  background-image: -o-linear-gradient(209.78deg, #ffffff 31.8%, rgba(255, 255, 255, 0) 87.73%);
+  background-image: linear-gradient(240.22deg, #ffffff 31.8%, rgba(255, 255, 255, 0) 87.73%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 21px;
+}
+
+.benefits__bottom-text {
+  width: 200px;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 1.65;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.benefits-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 16px;
+}
+
+.benefits-list__item {
+  text-align: center;
+}
+
+.benefits-list__icon {
+  display: inline-block;
+}
+
+.benefits-list__text {
+  text-align: start;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+.no-webp .no-webp .using {
+  background-image: url("../img/Ellipse-use.png"), url("../img/Ellipse-use-01.png"), url("../img/fill-use-bg.png"), url("../img/fill-use.png"); }
+
+.webp .using {
+  background-image: url("../img/Ellipse-use.webp"), url("../img/Ellipse-use-01.webp"), url("../img/fill-use-bg.webp"), url("../img/fill-use.webp");
+}
+
+.using {
+  padding-top: 40px;
+  padding-bottom: 200px;
+  background-image: url("../img/Ellipse-use.webp"), url("../img/Ellipse-use-01.webp"), url("../img/fill-use-bg.webp"), url("../img/fill-use.webp");
+  background-repeat: no-repeat;
+  background-position: top 100% right 55%, top 86% right 70%, top 120% right 50%, top 140% right 50%;
+  background-size: 96px 96px, 56px 56px, 320px 320px, 360px 360px;
+}
+
+.using__title {
+  width: 224px;
+  font-size: 28px;
+  line-height: 1.38;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  background: -o-linear-gradient(216.38deg, #ffffff 28.79%, rgba(255, 255, 255, 0) 98.2%);
+  background: linear-gradient(233.62deg, #ffffff 28.79%, rgba(255, 255, 255, 0) 98.2%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-bottom: 23px;
+}
+
+.using__text {
+  width: 270px;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.83;
+  margin-bottom: 23px;
+}
+
+.using__bottom-text {
+  width: 270px;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.83;
+  margin-bottom: 47px;
+}
+
+.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  gap: 17px;
+  margin-bottom: 19px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.icons__img::after {
+  display: inline-block;
+  width: 31px;
+  height: 1px;
+  content: "";
+  background-color: #949494;
+  margin-bottom: 5px;
+}
+
+.using__icon-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.71;
+  margin-right: auto;
+  margin-left: auto;
+  width: 184px;
+}
+
+.no-webp .no-webp .connection {
+  background-image: url("../img/kamin-bg-connect.jpg"); }
+
+.webp .connection {
+  background-image: url("../img/kamin-bg-connect.webp");
+}
+
+.connection {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  background-image: url("../img/kamin-bg-connect.webp");
+  background-repeat: no-repeat;
+  background-position: top 0 right 50%;
+  background-size: 320px 220px;
+}
+
+.connection__title {
+  font-size: 18px;
+  line-height: 1.38;
+  text-align: center;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  background: -o-linear-gradient(202.71deg, #ffffff 35.25%, rgba(255, 255, 255, 0) 104.81%);
+  background: linear-gradient(247.29deg, #ffffff 35.25%, rgba(255, 255, 255, 0) 104.81%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-bottom: 119px;
+}
+
+.connection__title-dash::after {
+  content: "";
+  display: inline-block;
+  width: 40px;
+  height: 1px;
+  background-color: #949494;
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-bottom: 15px;
+}
+
+.connection__text {
+  width: 290px;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.65;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.experience {
+  padding-top: 47px;
+  padding-bottom: 47px;
+}
+
+.experience__title {
+  font-size: 16px;
+  line-height: 1.38;
+  text-align: center;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  background: -o-linear-gradient(200.93deg, #ffffff 36.17%, rgba(255, 255, 255, 0) 97.71%);
+  background: linear-gradient(249.07deg, #ffffff 36.17%, rgba(255, 255, 255, 0) 97.71%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-bottom: 45px;
+}
+
+.photo-gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 42px;
+  margin-bottom: 90px;
+}
+
+.experience__bottom-title {
+  width: 290px;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  background: -o-linear-gradient(210.82deg, #ffffff 25.25%, rgba(255, 255, 255, 0.07) 95.17%);
+  background: linear-gradient(239.18deg, #ffffff 25.25%, rgba(255, 255, 255, 0.07) 95.17%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media screen and (min-width: 320px) {
   .container {
     width: 320px;
@@ -550,6 +811,16 @@ a {
   .hero {
     background-position: bottom 0 left 50px;
     background-size: 320px 229px;
+  }
+
+  .benefits {
+    background-position: bottom 30px right -30px;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .benefits {
+    background-position: bottom 30px right -10px;
   }
 }
 
@@ -626,6 +897,105 @@ a {
   .peculiarities-list__text {
     font-size: 12px;
   }
+
+  .benefits {
+    padding-bottom: 80px;
+    background-position: top -140px left 40%;
+    background-size: 1040px 872px;
+  }
+
+  .benefits__title {
+    width: 490px;
+    font-size: 34px;
+  }
+
+  .benefits__bottom-text {
+    width: 420px;
+    font-size: 14px;
+  }
+
+  .benefits-list {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 36px;
+  }
+
+  .benefits-list__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .benefits-list__icon {
+    margin-right: 10px;
+  }
+
+  .benefits-list__text {
+    width: 100px;
+    font-size: 12px;
+  }
+
+  .benefits-list__item:nth-child(3) .benefits-list__text {
+    width: 179px;
+  }
+
+  .using {
+    padding-top: 100px;
+    padding-bottom: 170px;
+    background-position: top 360px right 200px, top 310px right 370px, top -150px right -150px, top -100px right -150px;
+    background-size: 244px 244px, 144px 144px, 791px 789px, 901px 901px;
+  }
+
+  .using__title {
+    margin-left: 84px;
+    font-size: 40px;
+  }
+
+  .using__text {
+    font-size: 18px;
+    width: 370px;
+  }
+
+  .using__bottom-text {
+    font-size: 18px;
+    width: 370px;
+    margin-bottom: 217px;
+  }
+
+  .using__icon-text {
+    margin-right: 0;
+    margin-left: auto;
+    font-size: 14px;
+    width: 194px;
+  }
+
+  .connection {
+    padding-bottom: 400px;
+    background-position: top 50% right 50%;
+    background-size: 768px 420px;
+  }
+
+  .connection__title {
+    margin-bottom: 19px;
+    font-size: 34px;
+  }
+
+  .connection__text {
+    font-size: 16px;
+  }
+
+  .experience__title {
+    font-size: 28px;
+  }
+
+  .experience__bottom-title {
+    width: 700px;
+    font-size: 28px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -692,6 +1062,85 @@ a {
   .peculiarities-list__text {
     font-size: 14px;
   }
+
+  .benefits {
+    padding-bottom: 100px;
+    background-position: top -80px left 100px;
+    background-size: 1340px 1072px;
+  }
+
+  .benefits__title {
+    width: 680px;
+    font-size: 40px;
+  }
+
+  .benefits__bottom-text {
+    width: 620px;
+    font-size: 20px;
+  }
+
+  .benefits-list {
+    gap: 136px;
+  }
+
+  .benefits-list__icon {
+    margin-right: 29px;
+  }
+
+  .benefits-list__text {
+    width: 160px;
+    font-size: 16px;
+  }
+
+  .using {
+    background-position: top 360px right 350px, top 310px right 520px, top -150px right 0, top -100px right 0;
+    background-size: 244px 244px, 144px 144px, 791px 789px, 901px 901px;
+  }
+
+  .using__text {
+    margin-left: 84px;
+  }
+
+  .using__bottom-text {
+    margin-left: 84px;
+    margin-bottom: 87px;
+  }
+
+  .icons {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .using__icon-text {
+    width: 234px;
+    margin-left: 544px;
+  }
+
+  .connection {
+    background-size: contain;
+    background-position: top 0 right 0;
+    padding-top: 0;
+    padding-bottom: 515px;
+  }
+
+  .connection__title {
+    font-size: 40px;
+  }
+
+  .connection__text {
+    width: 644px;
+    font-size: 20px;
+  }
+
+  .experience__title {
+    font-size: 40px;
+  }
+
+  .experience__bottom-title {
+    width: 1080px;
+    font-size: 40px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -716,9 +1165,45 @@ a {
     width: 20px;
     height: 20px;
   }
+
+  .benefits-list__item {
+    width: 83px;
+  }
+
+  .benefits-list__icon {
+    width: 25px;
+    height: 25px;
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .experience__title {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .benefits-list__icon {
+    width: 35px;
+    height: 35px;
+  }
+
+  .icons {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-right: 50px;
+  }
 }
 
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  body {
+    background-image: url("../img/fill-use-bg@2x.webp");
+  }
+
   .no-webp .no-webp .header-link__tel {
     background-image: url("../img/btn-bg@2x.png"); }
 
@@ -727,7 +1212,7 @@ a {
   }
 
   .no-webp .no-webp .hero {
-    background-image: url("../img/kamin-hero@2x.png"), url("../img/fill-use-bg.png"); }
+    background-image: url("../img/kamin-hero@2x.png"); }
 
   .webp .hero {
     background-image: url("../img/kamin-hero@2x.webp");
@@ -736,11 +1221,50 @@ a {
   .hero {
     background-image: url("../img/kamin-hero@2x.webp");
   }
+
+  .no-webp .no-webp .benefits {
+    background-image: url("../img/benefits-bg@2x.png"); }
+
+  .webp .benefits {
+    background-image: url("../img/benefits-bg@2x.webp");
+  }
+
+  .benefits {
+    background-image: url("../img/benefits-bg@2x.webp");
+  }
+
+  .no-webp .no-webp .using {
+    background-image: url("../img/Ellipse-use@2x.png"), url("../img/Ellipse-use-01@2x.png"), url("../img/fill-use-bg@2x.png"), url("../img/fill-use@2x.png"); }
+
+  .webp .using {
+    background-image: url("../img/Ellipse-use@2x.webp"), url("../img/Ellipse-use-01@2x.webp"), url("../img/fill-use-bg@2x.webp"), url("../img/fill-use@2x.webp");
+  }
+
+  .using {
+    background-image: url("../img/Ellipse-use@2x.webp"), url("../img/Ellipse-use-01@2x.webp"), url("../img/fill-use-bg@2x.webp"), url("../img/fill-use@2x.webp");
+  }
+
+  .no-webp .no-webp .connection {
+    background-image: url("../img/kamin-bg-connect.jpg"); }
+
+  .webp .connection {
+    background-image: url("../img/kamin-bg-connect@2x.webp");
+  }
+
+  .connection {
+    background-image: url("../img/kamin-bg-connect@2x.webp");
+  }
 }
 
 .webp .no-webp .header-link__tel { background-image: url(../img/btn-bg.webp); }
 
-.webp .no-webp .hero { background-image: url(../img/kamin-hero.webp), url(../img/fill-use-bg.webp); }
+.webp .no-webp .hero { background-image: url(../img/kamin-hero.webp); }
+
+.webp .no-webp .benefits { background-image: url(../img/benefits-bg.webp); }
+
+.webp .no-webp .using { background-image: url(../img/Ellipse-use.webp), url(../img/Ellipse-use-01.webp), url(../img/fill-use-bg.webp), url(../img/fill-use.webp); }
+
+.webp .no-webp .connection { background-image: url(../img/kamin-bg-connect.webp); }
 
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi), (min-resolution: 2dppx) {
 
@@ -749,5 +1273,20 @@ a {
 
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi), (min-resolution: 2dppx) {
 
-  .webp .no-webp .hero { background-image: url(../img/kamin-hero@2x.webp), url(../img/fill-use-bg.webp); }
+  .webp .no-webp .hero { background-image: url(../img/kamin-hero@2x.webp); }
+}
+
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+
+  .webp .no-webp .benefits { background-image: url(../img/benefits-bg@2x.webp); }
+}
+
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+
+  .webp .no-webp .using { background-image: url(../img/Ellipse-use@2x.webp), url(../img/Ellipse-use-01@2x.webp), url(../img/fill-use-bg@2x.webp), url(../img/fill-use@2x.webp); }
+}
+
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+
+  .webp .no-webp .connection { background-image: url(../img/kamin-bg-connect.webp); }
 }

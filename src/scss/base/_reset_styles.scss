@@ -13,6 +13,10 @@ body {
   font-family: $font-family-primary;
   font-size: 14px;
 
+  @include retina {
+    background-image: url("../img/fill-use-bg@2x.webp");
+  }
+
   @media screen and (max-width: 767px) {
     background-size: 440px 459px;
     background-position: top 300px right -10px;

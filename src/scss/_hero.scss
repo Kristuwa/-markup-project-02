@@ -1,8 +1,7 @@
 .no-webp .hero {
-  background-image: url("../img/kamin-hero.png"), url("../img/fill-use-bg.png");
+  background-image: url("../img/kamin-hero.png");
   @include retina {
-    background-image: url("../img/kamin-hero@2x.png"),
-      url("../img/fill-use-bg.png");
+    background-image: url("../img/kamin-hero@2x.png");
   }
 }
 
