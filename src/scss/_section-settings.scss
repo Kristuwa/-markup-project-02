@@ -1,0 +1,131 @@
+.settings {
+  padding-bottom: 100px;
+}
+
+.settings__title {
+  font-size: 40px;
+  line-height: 1.38;
+  text-align: center;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+
+  background: linear-gradient(
+    235.41deg,
+    #ffffff 28.47%,
+    rgba(255, 255, 255, 0.18) 91.88%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+
+  margin-bottom: 67px;
+}
+
+.settings-form {
+  display: flex;
+  gap: 84px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.form__field {
+}
+.form__label {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 5.5;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+
+  color: rgba(255, 255, 255, 0.5);
+}
+.form__rate {
+  display: flex;
+  align-items: center;
+  justify-self: centre;
+  width: 410px;
+  margin-bottom: 5px;
+  margin-left: 39px;
+  margin-right: 47px;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.form__rate::-webkit-slider-runnable-track {
+  height: 2px;
+  background-color: $accent-color;
+}
+
+.form__rate::-moz-range-track {
+  height: 2px;
+  background-color: $accent-color;
+}
+
+.form__rate::-webkit-slider-thumb {
+  background: $accent-color;
+  border-radius: 2px;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  appearance: none;
+  -webkit-appearance: none;
+  margin-top: -15px;
+  box-shadow: 0 0 0 2px $accent-color;
+}
+
+.form__rate::-moz-range-thumb {
+  cursor: pointer;
+  background: $accent-color;
+  border-radius: 2px;
+  appearance: none;
+  height: 30px;
+  margin-top: -15px;
+  padding: 0px;
+  box-shadow: 0 0 0 2px $accent-color;
+}
+.form__range-panel {
+  display: flex;
+  align-items: center;
+  justify-self: centre;
+}
+
+.form__text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 3.06;
+  text-align: center;
+  color: $primary-text-color;
+}
+
+.btn-input {
+}
+.svg-next-left-dims {
+}
+.svg-next-right-dims {
+}
+.checkbox__label {
+}
+.checkbox__input {
+}
+.checkbox__text {
+}
+.checkbox__icon {
+}
+.form__button {
+}
+.button {
+}
+.choose-information {
+}
+.choose-information__item {
+}
+.choose-information__text {
+}
+.choose-information__bottom-text {
+}
+.choose-information__circle {
+}

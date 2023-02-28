@@ -1,0 +1,170 @@
+<section id="settings" class="settings">
+  <div class="container">
+    <h2 class="settings__title title">вы автор вашего камина</h2>
+    <div class="settings-form">
+      <picture>
+        <source
+          srcset="@img/creator.webp 1x, @img/creator@2x.webp 2x"
+          type="image/webp"
+        />
+        <source
+          srcset="@img/creator.jpg 1x, @img/creator@2x.jpg 2x"
+          type="image/jpg"
+        />
+        <img src="@img/creator.jpg" alt="камин" width="533" height="374" />
+      </picture>
+      <form class="form">
+        <label class="form__field">
+          <span class="form__label">Выберите длину</span>
+          <div class="form__range-panel">
+            <span class="form__text">0.5 м</span>
+            <input
+              type="range"
+              name="range"
+              class="form__rate"
+              value="7"
+              min="0.5"
+              max="10"
+              step="0.5"
+            />
+            <span class="form__text">10 м</span>
+          </div>
+        </label>
+        <label class="form__field">
+          <span class="form__label">Лицевая панель</span>
+          <div class="panel-gallery">
+            <button type="button" class="btn-input">
+              <svg width="10" height="18">
+                <use
+                  href="@img/icons/icons.svg#next-left"
+                  class="svg-next-left-dims"
+                ></use>
+              </svg>
+            </button>
+            <input type="image" id="image" alt="панель" src="@img/panel.jpg" />
+            <button type="button" class="btn-input">
+              <svg width="10" height="18">
+                <use
+                  href="@img/icons/icons.svg#next-right"
+                  class="svg-next-right-dims"
+                ></use>
+              </svg>
+            </button>
+          </div>
+        </label>
+        <div class="form__field">
+          <span class="form__label">дополнительные функции</span>
+          <div>
+            <label class="checkbox__label">
+              <input
+                type="checkbox"
+                class="checkbox__input"
+                name="policy"
+                value="policy"
+                required
+              />
+              <span class="checkbox__text">Защита от детей</span
+              ><span class="checkbox__icon"></span>
+            </label>
+            <label class="checkbox__label">
+              <input
+                type="checkbox"
+                class="checkbox__input"
+                name="policy"
+                value="policy"
+                required
+              />
+              <span class="checkbox__text">Wi-Fi</span
+              ><span class="checkbox__icon"></span>
+            </label>
+            <label class="checkbox__label">
+              <input
+                type="checkbox"
+                class="checkbox__input"
+                name="policy"
+                value="policy"
+                required
+              />
+              <span class="checkbox__text">Защита от детей</span
+              ><span class="checkbox__icon"></span>
+            </label>
+            <label class="checkbox__label">
+              <input
+                type="checkbox"
+                class="checkbox__input"
+                name="policy"
+                value="policy"
+                required
+              />
+              <span class="checkbox__text">Wi-Fi</span
+              ><span class="checkbox__icon"></span>
+            </label>
+          </div>
+          <div>
+            <label class="checkbox__label">
+              <input
+                type="checkbox"
+                class="checkbox__input"
+                name="policy"
+                value="policy"
+                required
+              />
+              <span class="checkbox__text">Защита от детей</span
+              ><span class="checkbox__icon"></span>
+            </label>
+            <label class="checkbox__label">
+              <input
+                type="checkbox"
+                class="checkbox__input"
+                name="policy"
+                value="policy"
+                required
+              />
+              <span class="checkbox__text">Wi-Fi</span
+              ><span class="checkbox__icon"></span>
+            </label>
+            <label class="checkbox__label">
+              <input
+                type="checkbox"
+                class="checkbox__input"
+                name="policy"
+                value="policy"
+                required
+              />
+              <span class="checkbox__text">Защита от детей</span
+              ><span class="checkbox__icon"></span>
+            </label>
+            <label class="checkbox__label">
+              <input
+                type="checkbox"
+                class="checkbox__input"
+                name="policy"
+                value="policy"
+                required
+              />
+              <span class="checkbox__text">Wi-Fi</span
+              ><span class="checkbox__icon"></span>
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="form__button button">
+          Оставить заявку
+        </button>
+      </form>
+    </div>
+    <div class="choose-information">
+      <div class="choose-information__item">
+        <p class="choose-information__text">длина</p>
+        <p class="choose-information__bottom-text">6.5 м</p>
+      </div>
+      <div class="choose-information__item">
+        <p class="choose-information__text">лицевая панель</p>
+        <div class="choose-information__circle"></div>
+      </div>
+      <div class="choose-information__item">
+        <p class="choose-information__text">стоимость</p>
+        <p class="choose-information__bottom-text">99 000&#8381;</p>
+      </div>
+    </div>
+  </div>
+</section>

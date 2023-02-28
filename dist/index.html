@@ -6,7 +6,7 @@
   <meta name="description" content="Free Web tutorials" />
   <meta name="keywords" content="HTML, SCSS" />
   <meta name="author" content="Kristi Krasovska" />
-  <link rel="stylesheet" href="./css/style.min.css?_v=20230227234821" />
+  <link rel="stylesheet" href="./css/style.min.css?_v=20230228184845" />
   <title>Elite Fire</title>
 </head>
 
@@ -211,31 +211,230 @@
   </div>
 </section>
 
-       <section id="contacts" class="contacts">
+      <section id="settings" class="settings">
+  <div class="container">
+    <h2 class="settings__title title">вы автор вашего камина</h2>
+    <div class="settings-form">
+      <picture>
+        <source
+          srcset="img/creator.webp 1x, img/creator@2x.webp 2x"
+          type="image/webp"
+        />
+        <source
+          srcset="img/creator.jpg 1x, img/creator@2x.jpg 2x"
+          type="image/jpg"
+        />
+        <img src="img/creator.jpg" alt="камин" width="533" height="374" />
+      </picture>
+      <form class="form">
+        <label class="form__field">
+          <span class="form__label">Выберите длину</span>
+          <div class="form__range-panel">
+            <span class="form__text">0.5 м</span>
+            <input
+              type="range"
+              name="range"
+              class="form__rate"
+              value="7"
+              min="0.5"
+              max="10"
+              step="0.5"
+            />
+            <span class="form__text">10 м</span>
+          </div>
+        </label>
+        <label class="form__field">
+          <span class="form__label">Лицевая панель</span>
+          <div class="panel-gallery">
+            <button type="button" class="btn-input">
+              <svg width="10" height="18">
+                <use
+                  href="img/icons/icons.svg#next-left"
+                  class="svg-next-left-dims"
+                ></use>
+              </svg>
+            </button>
+            <input type="image" id="image" alt="панель" src="img/panel.jpg" />
+            <button type="button" class="btn-input">
+              <svg width="10" height="18">
+                <use
+                  href="img/icons/icons.svg#next-right"
+                  class="svg-next-right-dims"
+                ></use>
+              </svg>
+            </button>
+          </div>
+        </label>
+        <div class="form__field">
+          <span class="form__label">дополнительные функции</span>
+          <div>
+            <label class="checkbox__label">
+              <input
+                type="checkbox"
+                class="checkbox__input"
+                name="policy"
+                value="policy"
+                required
+              />
+              <span class="checkbox__text">Защита от детей</span
+              ><span class="checkbox__icon"></span>
+            </label>
+            <label class="checkbox__label">
+              <input
+                type="checkbox"
+                class="checkbox__input"
+                name="policy"
+                value="policy"
+                required
+              />
+              <span class="checkbox__text">Wi-Fi</span
+              ><span class="checkbox__icon"></span>
+            </label>
+            <label class="checkbox__label">
+              <input
+                type="checkbox"
+                class="checkbox__input"
+                name="policy"
+                value="policy"
+                required
+              />
+              <span class="checkbox__text">Защита от детей</span
+              ><span class="checkbox__icon"></span>
+            </label>
+            <label class="checkbox__label">
+              <input
+                type="checkbox"
+                class="checkbox__input"
+                name="policy"
+                value="policy"
+                required
+              />
+              <span class="checkbox__text">Wi-Fi</span
+              ><span class="checkbox__icon"></span>
+            </label>
+          </div>
+          <div>
+            <label class="checkbox__label">
+              <input
+                type="checkbox"
+                class="checkbox__input"
+                name="policy"
+                value="policy"
+                required
+              />
+              <span class="checkbox__text">Защита от детей</span
+              ><span class="checkbox__icon"></span>
+            </label>
+            <label class="checkbox__label">
+              <input
+                type="checkbox"
+                class="checkbox__input"
+                name="policy"
+                value="policy"
+                required
+              />
+              <span class="checkbox__text">Wi-Fi</span
+              ><span class="checkbox__icon"></span>
+            </label>
+            <label class="checkbox__label">
+              <input
+                type="checkbox"
+                class="checkbox__input"
+                name="policy"
+                value="policy"
+                required
+              />
+              <span class="checkbox__text">Защита от детей</span
+              ><span class="checkbox__icon"></span>
+            </label>
+            <label class="checkbox__label">
+              <input
+                type="checkbox"
+                class="checkbox__input"
+                name="policy"
+                value="policy"
+                required
+              />
+              <span class="checkbox__text">Wi-Fi</span
+              ><span class="checkbox__icon"></span>
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="form__button button">
+          Оставить заявку
+        </button>
+      </form>
+    </div>
+    <div class="choose-information">
+      <div class="choose-information__item">
+        <p class="choose-information__text">длина</p>
+        <p class="choose-information__bottom-text">6.5 м</p>
+      </div>
+      <div class="choose-information__item">
+        <p class="choose-information__text">лицевая панель</p>
+        <div class="choose-information__circle"></div>
+      </div>
+      <div class="choose-information__item">
+        <p class="choose-information__text">стоимость</p>
+        <p class="choose-information__bottom-text">99 000&#8381;</p>
+      </div>
+    </div>
+  </div>
+</section>
+ <section id="contacts" class="contacts">
   <div class="container">
     <h2 class="contacts__title title">связаться с нами</h2>
-    <nav class="footer-nav">
-      <ul class="contacts-list list-style">
-        <li class="contacts-list__item">
-          <p class="contacts-list__text">WatsApp</p>
-          <a href="tel:+79113064144" class="contacts-list__link"
-            >+7911 306 4144
-          </a>
-        </li>
-        <li class="contacts-list__item">
-          <p class="contacts-list__text">Телеграмм</p>
-          <a href="http:/t.me@elite_fire" class="contacts-list__link"
-            >@elite_fire</a
-          >
-        </li>
-        <li class="contacts-list__item">
-          <p class="contacts-list__text">Телеграмм</p>
-          <a href="mailto:info@elite-fire.ru" class="contacts-list__link"
-            >info@elite-fire.ru</a
-          >
-        </li>
-      </ul>
-    </nav>
+    <div class="contacts__container">
+      <nav class="contacts-nav">
+        <ul class="contacts-list list-style">
+          <li class="contacts-list__item">
+            <p class="contacts-list__text">WatsApp</p>
+            <a href="tel:+79113064144" class="contacts-list__link link"
+              >+7911 306 4144
+            </a>
+          </li>
+          <li class="contacts-list__item">
+            <p class="contacts-list__text">Телеграмм</p>
+            <a
+              href="http:/t.me@elite_fire"
+              class="contacts-list__link link"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >@elite_fire</a
+            >
+          </li>
+          <li class="contacts-list__item">
+            <p class="contacts-list__text">Почта</p>
+            <a
+              href="mailto:info@elite-fire.ru"
+              class="contacts-list__link link contacts-list__link--gold"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >info@elite-fire.ru</a
+            >
+          </li>
+          <li>
+            <p class="contacts-list__text">Наш адрес</p>
+            <a
+              href="https://goo.gl/maps/SzuZ7XhNckwEZdbQ8"
+              class="contacts-list__link contacts-list__link--address link"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >Россия, г. Москва, Варшавское шоссе, 170 г
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="contacts-information">
+        <p class="contacts-information__text">Телефон</p>
+        <a href="tel:89113064144" class="contacts-information__link link"
+          >8 911 306 4144</a
+        >
+        <button type="button" class="contacts-information__btn">
+          Связаться с менеджером
+        </button>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -243,10 +442,17 @@
 
     <footer class="footer">
   <div class="container">
-   
+    <a href="./index.html" class="footer__logo link" aria-label="logo"
+      >Elite Fire</a
+    >
+    <p class="footer__text--date footer__text">2020-2021</p>
+    <p class="footer__text">ООО “МЕТАЛЛЭЛЕКТРОИНВЕСТ”</p>
+    <a href="./index.html" class="footer__link link"
+      >Пользовательское соглашение</a
+    >
   </div>
 </footer>
 
-    <script src="./js/app.js?_v=20230227234821"></script>
+    <script src="./js/app.js?_v=20230228184845"></script>
   </body>
 </html>

@@ -1,0 +1,72 @@
+.footer {
+  padding-top: 15px;
+  padding-bottom: 18px;
+  background-color: #000000;
+  border-top: 1px solid #232323;
+}
+.footer .container {
+  text-align: center;
+  @include tablet {
+    display: flex;
+    align-items: center;
+  }
+}
+.footer__logo {
+  font-family: $font-family-secondary;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 5;
+  letter-spacing: 0.105em;
+
+  color: $primary-text-color;
+  @include tablet {
+    margin-right: 20px;
+  }
+  @include desktop {
+    margin-right: 110px;
+  }
+}
+
+.footer__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: 0.05em;
+
+  color: #6d6d6d;
+
+  @media screen and (max-width: 767px) {
+    margin-bottom: 10px;
+  }
+
+  @include tablet {
+    font-size: 12px;
+    margin-right: 80px;
+  }
+  @include desktop {
+    font-size: 14px;
+    margin-right: 380px;
+  }
+}
+.footer__text--date {
+  @include tablet {
+    margin-right: 27px;
+  }
+  @include desktop {
+    margin-right: 47px;
+  }
+}
+
+.footer__link {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: 0.05em;
+
+  color: #6d6d6d;
+
+  @media screen and (min-width: 768px) and (max-width: 1439px) {
+    font-size: 12px;
+  }
+}
