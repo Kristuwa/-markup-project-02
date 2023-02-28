@@ -803,6 +803,7 @@ a {
 
 .settings {
   padding-bottom: 100px;
+  position: relative;
 }
 
 .settings__title {
@@ -916,6 +917,192 @@ a {
   line-height: 3.06;
   text-align: center;
   color: #ffffff;
+}
+
+.panel-gallery__btn-input {
+  border: none;
+  background-color: transparent;
+  display: inline-block;
+  padding: 0;
+  width: 18px;
+  height: 18px;
+}
+
+.panel-gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 26px;
+  margin-bottom: 18px;
+}
+
+.line-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 4px;
+  margin-left: 130px;
+  margin-bottom: 12px;
+}
+
+.line-list__item + .line-list__item {
+  margin-left: 4px;
+}
+
+.line-list__dash {
+  width: 9px;
+  height: 1px;
+  background-color: #464239;
+  display: inline-block;
+}
+
+.line-list__dash--accent {
+  background-color: #ffcf7a;
+}
+
+.checkbox__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 143px;
+  margin-bottom: 80px;
+}
+
+.checkbox__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.checkbox__label {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 230px;
+}
+
+.checkbox__input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.checkbox__text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 2.14;
+}
+
+.checkbox__icon {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ceb787;
+  border-radius: 2px;
+  background-color: transparent;
+  margin-left: 86px;
+}
+
+.no-webp .no-webp .form__button {
+  background-image: url(../img/btn-form.png); }
+
+.form__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: none;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.67;
+  width: 254px;
+  height: 60px;
+  background-image: url(../img/btn-form.webp);
+  background-position: top 0 left 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #eccf94;
+  border-radius: 1px;
+  margin-left: auto;
+  color: #121212;
+}
+
+.choose-information {
+  position: absolute;
+  top: 630px;
+  left: 123px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 215px;
+}
+
+.choose-information__text {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 4.58;
+  letter-spacing: 0.135em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.choose-information__bottom-text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 2.29;
+}
+
+.choose-information__price {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.05em;
+  color: #ffcf7a;
+}
+
+.choose-information__circle {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  border-radius: 14px;
+  background-color: #b8542a;
+  margin-top: 7px;
+}
+
+.checkbox__input:checked + .checkbox__text + .checkbox__icon {
+  background-color: #ffcf7a;
+  border-color: #ffcf7a;
+  background-image: url(../img/add.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-origin: border-box;
 }
 
 .contacts {
@@ -1648,6 +1835,13 @@ a {
   .connection {
     background-image: url("../img/kamin-bg-connect@2x.webp");
   }
+
+  .no-webp .no-webp .form__button {
+    background-image: url(../img/btn-form@2x.png); }
+
+  .form__button {
+    background-image: url(../img/btn-form@2x.webp);
+  }
 }
 
 .webp .no-webp .header-link__tel { background-image: url(../img/btn-bg.webp); }
@@ -1659,6 +1853,8 @@ a {
 .webp .no-webp .using { background-image: url(../img/Ellipse-use.webp), url(../img/Ellipse-use-01.webp), url(../img/fill-use-bg.webp), url(../img/fill-use.webp); }
 
 .webp .no-webp .connection { background-image: url(../img/kamin-bg-connect.webp); }
+
+.webp .no-webp .form__button { background-image: url(../img/btn-form.webp); }
 
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi), (min-resolution: 2dppx) {
 
@@ -1683,4 +1879,9 @@ a {
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi), (min-resolution: 2dppx) {
 
   .webp .no-webp .connection { background-image: url(../img/kamin-bg-connect.webp); }
+}
+
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+
+  .webp .no-webp .form__button { background-image: url(../img/btn-form@2x.webp); }
 }

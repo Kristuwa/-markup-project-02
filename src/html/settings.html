@@ -33,17 +33,23 @@
         <label class="form__field">
           <span class="form__label">Лицевая панель</span>
           <div class="panel-gallery">
-            <button type="button" class="btn-input">
-              <svg width="10" height="18">
+            <button type="button" class="panel-gallery__btn-input">
+              <svg width="18" height="18">
                 <use
                   href="@img/icons/icons.svg#next-left"
                   class="svg-next-left-dims"
                 ></use>
               </svg>
             </button>
-            <input type="image" id="image" alt="панель" src="@img/panel.jpg" />
-            <button type="button" class="btn-input">
-              <svg width="10" height="18">
+            <input
+              type="image"
+              id="image"
+              alt="панель"
+              src="@img/panel.jpg"
+              class="panel-gallery__input"
+            />
+            <button type="button" class="panel-gallery__btn-input">
+              <svg width="18" height="18">
                 <use
                   href="@img/icons/icons.svg#next-right"
                   class="svg-next-right-dims"
@@ -51,100 +57,110 @@
               </svg>
             </button>
           </div>
+          <ul class="line-list list-style">
+            <li class="line-list__item">
+              <span class="line-list__dash line-list__dash--accent"></span>
+            </li>
+            <li class="line-list__item">
+              <span class="line-list__dash"></span>
+            </li>
+            <li class="line-list__item">
+              <span class="line-list__dash"></span>
+            </li>
+            <li class="line-list__item">
+              <span class="line-list__dash"></span>
+            </li>
+          </ul>
         </label>
         <div class="form__field">
-          <span class="form__label">дополнительные функции</span>
-          <div>
-            <label class="checkbox__label">
-              <input
-                type="checkbox"
-                class="checkbox__input"
-                name="policy"
-                value="policy"
-                required
-              />
-              <span class="checkbox__text">Защита от детей</span
-              ><span class="checkbox__icon"></span>
-            </label>
-            <label class="checkbox__label">
-              <input
-                type="checkbox"
-                class="checkbox__input"
-                name="policy"
-                value="policy"
-                required
-              />
-              <span class="checkbox__text">Wi-Fi</span
-              ><span class="checkbox__icon"></span>
-            </label>
-            <label class="checkbox__label">
-              <input
-                type="checkbox"
-                class="checkbox__input"
-                name="policy"
-                value="policy"
-                required
-              />
-              <span class="checkbox__text">Защита от детей</span
-              ><span class="checkbox__icon"></span>
-            </label>
-            <label class="checkbox__label">
-              <input
-                type="checkbox"
-                class="checkbox__input"
-                name="policy"
-                value="policy"
-                required
-              />
-              <span class="checkbox__text">Wi-Fi</span
-              ><span class="checkbox__icon"></span>
-            </label>
-          </div>
-          <div>
-            <label class="checkbox__label">
-              <input
-                type="checkbox"
-                class="checkbox__input"
-                name="policy"
-                value="policy"
-                required
-              />
-              <span class="checkbox__text">Защита от детей</span
-              ><span class="checkbox__icon"></span>
-            </label>
-            <label class="checkbox__label">
-              <input
-                type="checkbox"
-                class="checkbox__input"
-                name="policy"
-                value="policy"
-                required
-              />
-              <span class="checkbox__text">Wi-Fi</span
-              ><span class="checkbox__icon"></span>
-            </label>
-            <label class="checkbox__label">
-              <input
-                type="checkbox"
-                class="checkbox__input"
-                name="policy"
-                value="policy"
-                required
-              />
-              <span class="checkbox__text">Защита от детей</span
-              ><span class="checkbox__icon"></span>
-            </label>
-            <label class="checkbox__label">
-              <input
-                type="checkbox"
-                class="checkbox__input"
-                name="policy"
-                value="policy"
-                required
-              />
-              <span class="checkbox__text">Wi-Fi</span
-              ><span class="checkbox__icon"></span>
-            </label>
+          <p class="form__label">дополнительные функции</p>
+          <div class="checkbox__container">
+            <div class="checkbox__box">
+              <label class="checkbox__label">
+                <input
+                  type="checkbox"
+                  class="checkbox__input"
+                  name="functions"
+                  value="protection"
+                  checked
+                />
+                <span class="checkbox__text">Защита от детей</span
+                ><span class="checkbox__icon"></span>
+              </label>
+              <label class="checkbox__label">
+                <input
+                  type="checkbox"
+                  class="checkbox__input"
+                  name="functions"
+                  value="wifi"
+                />
+                <span class="checkbox__text">Wi-Fi</span
+                ><span class="checkbox__icon"></span>
+              </label>
+              <label class="checkbox__label">
+                <input
+                  type="checkbox"
+                  class="checkbox__input"
+                  name="functions"
+                  value="protection"
+                />
+                <span class="checkbox__text">Защита от детей</span
+                ><span class="checkbox__icon"></span>
+              </label>
+              <label class="checkbox__label">
+                <input
+                  type="checkbox"
+                  class="checkbox__input"
+                  name="functions"
+                  value="wifi"
+                />
+                <span class="checkbox__text">Wi-Fi</span
+                ><span class="checkbox__icon"></span>
+              </label>
+            </div>
+            <div class="checkbox__box">
+              <label class="checkbox__label">
+                <input
+                  type="checkbox"
+                  class="checkbox__input"
+                  name="functions"
+                  value="protection"
+                />
+                <span class="checkbox__text">Защита от детей</span
+                ><span class="checkbox__icon"></span>
+              </label>
+              <label class="checkbox__label">
+                <input
+                  type="checkbox"
+                  class="checkbox__input"
+                  name="functions"
+                  value="wifi"
+                />
+                <span class="checkbox__text">Wi-Fi</span
+                ><span class="checkbox__icon"></span>
+              </label>
+              <label class="checkbox__label">
+                <input
+                  type="checkbox"
+                  class="checkbox__input"
+                  name="functions"
+                  value="protection"
+                  checked
+                />
+                <span class="checkbox__text">Защита от детей</span
+                ><span class="checkbox__icon"></span>
+              </label>
+              <label class="checkbox__label">
+                <input
+                  type="checkbox"
+                  class="checkbox__input"
+                  name="functions"
+                  value="wifi"
+                />
+                <span class="checkbox__text">Wi-Fi</span
+                ><span class="checkbox__icon"></span>
+              </label>
+            </div>
           </div>
         </div>
         <button type="submit" class="form__button button">
@@ -163,7 +179,7 @@
       </div>
       <div class="choose-information__item">
         <p class="choose-information__text">стоимость</p>
-        <p class="choose-information__bottom-text">99 000&#8381;</p>
+        <p class="choose-information__price">99 000&#8381;</p>
       </div>
     </div>
   </div>
