@@ -1,7 +1,7 @@
 import gulp from "gulp";
 import { path } from "./gulp/config/path.js";
 import { plugins } from "./gulp/config/plugins.js";
-
+import deploy from "gulp-gh-pages";
 global.app = {
   isBuild: process.argv.includes("--build"),
   isDev: !process.argv.includes("--build"),
@@ -21,7 +21,7 @@ import { otfToTtf, ttfToWoff, fontsStyle } from "./gulp/tasks/fonts.js";
 import { svgSprive } from "./gulp/tasks/svgSprite.js";
 import { zip } from "./gulp/tasks/zip.js";
 import { ftp } from "./gulp/tasks/ftp.js";
-import deploy from "gulp-gh-pages";
+
 function watcher() {
   gulp.watch(path.watch.files, copy); //gulp.series(copy, ftp)
   gulp.watch(path.watch.html, html); //gulp.series(html, ftp))
