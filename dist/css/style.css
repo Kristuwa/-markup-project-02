@@ -696,7 +696,7 @@ a {
 }
 
 .no-webp .no-webp .connection {
-  background-image: url("../img/kamin-bg-connect.jpg"); }
+  background-image: url("../img/kamin-bg-connect.png"); }
 
 .webp .connection {
   background-image: url("../img/kamin-bg-connect.webp");
@@ -2208,7 +2208,7 @@ a {
   }
 
   .no-webp .no-webp .connection {
-    background-image: url("../img/kamin-bg-connect.jpg"); }
+    background-image: url("../img/kamin-bg-connect.png"); }
 
   .webp .connection {
     background-image: url("../img/kamin-bg-connect@2x.webp");
