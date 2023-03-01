@@ -50,10 +50,5 @@ export { deployZIP };
 gulp.task("default", dev);
 //деплой сборки
 gulp.task("deploy", function () {
-  return gulp.src("./dist/**/*").pipe(
-    deploy({
-      remoteUrl: "https://github.com/Kristuwa/markup-project-02.git",
-      branch: "gh-pages",
-    })
-  );
+  return gulp.src("./dist/**/*").pipe(deploy());
 });
